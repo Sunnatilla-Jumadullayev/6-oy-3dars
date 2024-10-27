@@ -1,0 +1,42 @@
+.hero {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  //   background: url("https://www.kimstore.com/cdn/shop/articles/S24_Ultra_Banner.png?v=1705634996&width=1900")
+  //     no-repeat center/cover;
+
+  padding: 50px 0;
+
+  border: 1px solid #e6bd03;
+  border-radius: 20px;
+  &__img {
+    width: 400px;
+    height: 300px;
+    border-radius: 14px;
+  }
+  &__list {
+    gap: 10px;
+  }
+  &__item {
+    font-weight: 900;
+    font-size: 16px;
+  }
+  &__btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #000;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  &__btn:hover {
+    color: #fff;
+    font-weight: 600;
+    background: #000;
+  }
+}

@@ -1,0 +1,40 @@
+img {
+  font-size: 50px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    width: 150px;
+    height: 80px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+  }
+  &__item {
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  &__item:hover {
+    box-shadow: #e6bc1559 0px 5px 15px;
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+  }
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__icon {
+    width: 50px;
+  }
+}
