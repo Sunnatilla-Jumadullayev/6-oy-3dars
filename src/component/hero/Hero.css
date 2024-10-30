@@ -1,0 +1,38 @@
+.hero {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 50px 0;
+  border: 1px solid #e6bd03;
+  border-radius: 20px;
+}
+.hero__img {
+  width: 400px;
+  height: 300px;
+  border-radius: 14px;
+}
+.hero__list {
+  gap: 10px;
+}
+.hero__item {
+  font-weight: 900;
+  font-size: 16px;
+}
+.hero__btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 1px solid #000;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.hero__btn:hover {
+  color: #fff;
+  font-weight: 600;
+  background: #000;
+}/*# sourceMappingURL=Hero.css.map */

@@ -48,6 +48,16 @@ const SWiper = () => {
         <SwiperSlide>
           <img src={rasm2} alt="salom" />
         </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper__main">
+            <h1>assalom</h1>
+            <h2>assalom</h2>
+            <h3>assalom</h3>
+            <h4>assalom</h4>
+            <h5>assalom</h5>
+            <h6>assalom</h6>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
